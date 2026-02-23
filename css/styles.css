@@ -5042,3 +5042,60 @@ td:last-child {
         padding-left: 0;
     }
 }
+
+/* ==========================
+   HOME PAGE ENHANCEMENTS
+========================== */
+
+.s-homepanels,
+.s-homepicks,
+.s-homecta {
+    padding-top: var(--vspace-3);
+    padding-bottom: var(--vspace-3);
+}
+
+.s-homepanels .lead {
+    max-width: 70rem;
+}
+
+.home-card {
+    background: var(--color-bg-neutral);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: var(--vspace-1);
+}
+
+.home-link {
+    display: inline-block;
+    margin-top: var(--vspace-0_5);
+    font-weight: 600;
+}
+
+.home-picks .pick {
+    background: var(--color-bg-neutral);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: var(--vspace-1);
+}
+
+.home-actions {
+    margin-top: var(--vspace-1);
+}
+
+.home-ctaBox {
+    background: var(--color-bg-neutral);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: var(--vspace-1_25);
+}
+
+.home-mini p {
+    margin-bottom: var(--vspace-0_25);
+}
+
+@media screen and (max-width: 800px) {
+    .home-actions .btn {
+        width: 100%;
+        margin-right: 0;
+    }
+}
